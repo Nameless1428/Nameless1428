@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+
+
+  
+  <!-- Basic Page Needs
+  
+  ================================================== -->
+  
+  <meta charset="utf-8" />
+  <title>健康管理平台</title>
+  
+    
+  <meta name="keywords" content="" />
+    
+  <meta name="description" content="" />
+  
+  <meta name="author" content="" />
+
+  <meta http-equiv="Pragma" content="no_cache">
+  
+  <!-- Mobile Specific Metas
+
+  ================================================== -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+
+
+  
+  <!-- CSS
+  
+  ================================================== -->
+  
+  <link rel="stylesheet" href="styles/skeleton.css" />
+    
+    <link rel="stylesheet" href="styles/style.css" />
+    
+    <link rel="stylesheet" href="styles/flexslider.css" />
+    
+    <link rel="stylesheet" href="styles/color.css" />
+  
+    <link rel="stylesheet" href="styles/layout.css" />
+
+
+
+
+  
+  <!--[if lt IE 9]>
+    
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  
+  <![endif]-->
+
+
+  
+  <!-- Favicons
+  
+  ================================================== -->
+  
+  <link rel="shortcut icon" href="" />
+  
+  <link rel="apple-touch-icon" href="" />
+  
+  <link rel="apple-touch-icon" sizes="72x72" href="" />
+  
+  <link rel="apple-touch-icon" sizes="114x114" href="" />
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+
+
+<style type="text/css">
+  .rwd-table {
+    background: #fff;
+    overflow: hidden;
+  }
+
+  .rwd-table tr:nth-of-type(2n){
+    background: #eee;
+  }
+  
+  .rwd-table th, .rwd-table td {
+    margin: 0.5em 1em;
+  }
+  .rwd-table {
+    min-width: 100%;
+  }
+
+  .rwd-table th {
+    display: none;
+  }
+
+  .rwd-table td {
+    display: block;
+  }
+
+  .rwd-table td:before {
+    content: attr(data-th) " : ";
+    font-weight: bold;
+    width: 6em;
+    display: inline-block;
+  }
+
+  .rwd-table th, .rwd-table td {
+    text-align: left;
+    border: 1px #000000 solid;
+  }
+  @media (min-width: 480px) {
+    .rwd-table td:before {
+      display: none;
+    }
+    .rwd-table th, .rwd-table td {
+      display: table-cell;
+      padding: 0.25em 0.5em;
+    }
+    .rwd-table th:first-child,
+    .rwd-table td:first-child {
+      padding-left: 0;
+    }
+    .rwd-table th:last-child,
+    .rwd-table td:last-child {
+      padding-right: 0;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      padding: 1em !important;
+    }
+  }
+   
+</style>
+
+
+<body>
+
+<div id="bodychild">
+  <div id="outercontainer">    
+        <!-- HEADER -->
+        
+    <div id="outerheader">    
+	    <div class="container">
+	      <header id="top" class="twelve columns">
+          <div class="page-bg-w">
+            <a href="index.html"><img src="logo.png" style="width:50%;display:block; margin:auto;" title="健康管理平台">
+            </a>
+            <section id="navigation" class="twelve columns" >
+                    
+              <nav id="nav-wrap">
+                                
+                <ul id="topnav" class="sf-menu">
+        
+                                  
+        
+                                    <li><a href="#">會員基本資料</a>
+                                    </li>
+        
+        
+                                    <li><a href="#">體適能紀錄</a>
+                                    </li>
+                                </ul><!-- topnav -->
+        
+                            </nav><!-- nav -->
+        
+                            <div class="clear"></div>
+        
+                        </section>
+        
+                        <div class="clear"></div>
+        
+        
+        
+        
+                    </header>
+        
+          </div>
+          <br>
+          <section id="navigation" class="twelve columns" >
+            <nav id="nav-wrap">
+              <ul id="topnav" class="sf-menu">
+              </ul>
+            </nav>
+            <div class="clear">
+            </div>
+          </section>
+          <div class="clear"></div>
+        </header>
+      </div>
+    </div>
+
+        <!-- END HEADER -->
+          <br>
+          <br>
+          <h1 font size="8" face="標楷體" style="text-align: center;margin:0 auto;">會員基本資料</h1>
+          <br>
+          
+    <div center>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-6">
+            <table width="65%" class="rwd-table" style="border: 2px #000000 solid;" cellpadding="5" border="5" align="center">
+              <tr>
+                <th>姓名</th>
+                <th>性別</th>
+                <th>ID</th>
+
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+                
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+                
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+                
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+               
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+                
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+               
+              </tr>
+              <tr>
+                <td data-th="姓名"></td>
+                <td data-th="性別"></td>
+                <td data-th="ID"></td>
+              
+              </tr>
+             
+         
+            </table>
+          </div>
+        </div>                    
+      </div>
+    </div>
+        
+        <!--<table style="width:50%;margin:0 auto;">
+        <tbody>
+        <tr>
+                <td>
+                     <div class="use-flexbox"><img alt="dir_1" src="images/dir_1.jpg"></div>
+                </td>
+                <td>
+                  
+                <div><p><a href="http://www.paradiso-garden.com"><font size="6">綠祚股份有限公司</font> </a></p></div>
+                
+
+                </td>
+        </tr>
+        <tr>
+                <td class="auto-style2" align="center" valign="center">
+                     <p style="text-align: center;"><img alt="dir_2" src="images/dir_2.jpg"></p>
+                </td>
+                <td>
+                  
+                <p><a href="http://www.tcba.org.tw/"><font size="6">台中市美容業職業工會</font></a></p>
+                
+
+                </td>
+        </tr>
+        <tr>
+                <td class="auto-style2" align="center" valign="center">
+                     <p style="text-align: center;"><img alt="dir_3" src="images/dir_3.jpg"></p>
+                </td>
+                <td>
+                  
+                <p><a href="http://www.yong-yue.com.tw/"><font size="6">永悅生化股份有限公司</font></a></p>
+                
+
+                </td>
+        </tr>       
+        </tbody>
+        </table>-->
+
+  </div><!-- end outercontainer -->
+</div><!-- end bodychild -->
+
+
+<!-- ////////////////////////////////// -->
+
+<!-- //      Javascript Files        // -->
+
+<!-- ////////////////////////////////// -->
+
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+
+
+<!-- jQuery Superfish -->
+
+<script type="text/javascript" src="js/hoverIntent.js"></script>
+
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/supersubs.js"></script>
+
+
+
+<!-- jQuery Flexslider -->
+
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+
+
+
+<!-- jQuery Twitter -->
+
+<script type="text/javascript" src="js/jquery.tweetable.js"></script>
+
+
+
+<!-- Custom Script -->
+
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+<script type="text/javascript">
+
+jQuery(window).load(function() {
+    
+jQuery('.flexslider').flexslider({
+          
+animation: "fade",              //String: Select your animation type, "fade" or "slide"
+      
+directionNav: false, //Boolean: Create navigation for previous/next navigation? (true/false)
+      
+controlNav: true  //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+        
+});
+});
+
+</script>
+<script src="topnav.js"></script>
+
+
+</body>
+
+</html>
